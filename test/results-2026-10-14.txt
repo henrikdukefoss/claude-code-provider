@@ -1,0 +1,81 @@
+2.1.296 (Claude Code)
+== custom
+  main + WebFetch summary:  m-haiku m-main | auth: Bearer
+  main + subagent:          m-main m-sub | auth: Bearer
+  auto-mode classifier:     m-main m-sonnet | auth: Bearer
+  --model opus:             m-opus | auth: Bearer
+  --model sonnet:           m-sonnet | auth: Bearer
+  --model haiku:            m-haiku | auth: Bearer
+  --model fable:            m-fable | auth: Bearer
+== deepseek
+  main + WebFetch summary:  deepseek-flash | auth: Bearer
+  main + subagent:          deepseek-flash | auth: Bearer
+  auto-mode classifier:     deepseek-flash | auth: Bearer
+  --model opus:             deepseek-flash | auth: Bearer
+  --model sonnet:           deepseek-flash | auth: Bearer
+  --model haiku:            deepseek-flash | auth: Bearer
+  --model fable:            deepseek-flash | auth: Bearer
+== kimi
+  main + WebFetch summary:  kimi-k3 | auth: Bearer
+  main + subagent:          kimi-k3 | auth: Bearer
+  auto-mode classifier:     kimi-k3 | auth: Bearer
+  --model opus:             kimi-k3 | auth: Bearer
+  --model sonnet:           kimi-k3 | auth: Bearer
+  --model haiku:            kimi-k3 | auth: Bearer
+  --model fable:            kimi-k3 | auth: Bearer
+== zai
+  main + WebFetch summary:  glm-5.3-flash | auth: Bearer
+  main + subagent:          glm-5.3-flash | auth: Bearer
+  auto-mode classifier:     glm-5.3-flash | auth: Bearer
+  --model opus:             glm-5.3-flash | auth: Bearer
+  --model sonnet:           glm-5.3-flash | auth: Bearer
+  --model haiku:            glm-5.3-flash | auth: Bearer
+  --model fable:            glm-5.3-flash | auth: Bearer
+== minimax
+  main + WebFetch summary:  MiniMax-M3.1-Flash-Preview | auth: Bearer
+  main + subagent:          MiniMax-M3.1-Flash-Preview | auth: Bearer
+  auto-mode classifier:     MiniMax-M3.1-Flash-Preview | auth: Bearer
+  --model opus:             MiniMax-M3.1-Flash-Preview | auth: Bearer
+  --model sonnet:           MiniMax-M3.1-Flash-Preview | auth: Bearer
+  --model haiku:            MiniMax-M3.1-Flash-Preview | auth: Bearer
+  --model fable:            MiniMax-M3.1-Flash-Preview | auth: Bearer
+== qwen
+  main + WebFetch summary:  qwen3.6-flash qwen3.7-max | auth: Bearer
+  main + subagent:          qwen3.7-max | auth: Bearer
+  auto-mode classifier:     qwen3.7-max | auth: Bearer
+  --model opus:             qwen3.7-max | auth: Bearer
+  --model sonnet:           qwen3.7-max | auth: Bearer
+  --model haiku:            qwen3.6-flash | auth: Bearer
+  --model fable:            qwen3.7-max | auth: Bearer
+== qwen-coding
+  main + WebFetch summary:  qwen3.7-plus | auth: Bearer
+  main + subagent:          qwen3.7-plus | auth: Bearer
+  auto-mode classifier:     qwen3.7-plus | auth: Bearer
+  --model opus:             qwen3.7-plus | auth: Bearer
+  --model sonnet:           qwen3.7-plus | auth: Bearer
+  --model haiku:            qwen3.7-plus | auth: Bearer
+  --model fable:            qwen3.7-plus | auth: Bearer
+== openrouter
+  main + WebFetch summary:  ~anthropic/claude-haiku-latest ~anthropic/claude-opus-latest | auth: Bearer
+  main + subagent:          ~anthropic/claude-opus-latest | auth: Bearer
+  auto-mode classifier:     ~anthropic/claude-opus-latest ~anthropic/claude-sonnet-latest | auth: Bearer
+  --model opus:             ~anthropic/claude-opus-latest | auth: Bearer
+  --model sonnet:           ~anthropic/claude-sonnet-latest | auth: Bearer
+  --model haiku:            ~anthropic/claude-haiku-latest | auth: Bearer
+  --model fable:            ~anthropic/claude-fable-latest | auth: Bearer
+== litellm
+  main + WebFetch summary:  my-model my-small | auth: Bearer
+  main + subagent:          my-model | auth: Bearer
+  auto-mode classifier:     my-model | auth: Bearer
+  --model opus:             my-model | auth: Bearer
+  --model sonnet:           my-model | auth: Bearer
+  --model haiku:            my-small | auth: Bearer
+  --model fable:            my-model | auth: Bearer
+== standardcompute
+  main + WebFetch summary:  standardcompute | auth: Bearer
+  main + subagent:          standardcompute | auth: Bearer
+  auto-mode classifier:     standardcompute | auth: Bearer
+  --model opus:             standardcompute | auth: Bearer
+  --model sonnet:           standardcompute | auth: Bearer
+  --model haiku:            standardcompute | auth: Bearer
+  --model fable:            standardcompute | auth: Bearer
