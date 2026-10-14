@@ -162,6 +162,16 @@ Not checked: requests with real keys to each provider. The preset model IDs come
 
 Related: [agent-provider-configs](https://github.com/henrikdukefoss/agent-provider-configs) has copy-paste configs for 20 coding agents and the same Claude Code findings. [CC Switch](https://github.com/farion1231/cc-switch) is a desktop app that switches Claude Code providers; ccp is a single file for the terminal and adds the `check` diagnosis.
 
+## Related guides
+
+Written by Standard Compute, which maintains ccp:
+
+- [Claude Code without the 5-hour and weekly limits](https://standardcompute.com/claude-code-without-weekly-limits): every option, how to set it up, and the catch with each. Also in: [Español](https://standardcompute.com/claude-code-limite-de-uso) · [Português](https://standardcompute.com/claude-code-plano-mensal-fixo) · [Deutsch](https://standardcompute.com/claude-code-flatrate) · [Français](https://standardcompute.com/claude-code-cout-fixe)
+- [Claude Code with other models](https://standardcompute.com/claude-code-other-models): DeepSeek, GLM, Kimi, GPT and Gemini behind Claude Code, and what changes.
+- [Fixing "model does not exist" (404)](https://standardcompute.com/fix/model-not-found): the same `model_not_found` that `ccp check` reports, across providers.
+- [Claude Code pricing](https://standardcompute.com/claude-code-pricing): plans and real API cost per day.
+- [Cheapest way to run Claude Code](https://standardcompute.com/cheapest-way-to-run-claude-code): six options by price.
+
 ## About
 
 Maintained by [Standard Compute](https://standardcompute.com), which is one of the presets above. The tool is provider-neutral: every preset is sourced from its vendor's docs, and `--base-url` works with any Anthropic-compatible API.
