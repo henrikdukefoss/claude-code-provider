@@ -132,6 +132,10 @@ Every preset uses `ANTHROPIC_AUTH_TOKEN` (Bearer), as each vendor's Claude Code 
 
 Anthropic's docs say routing Claude Code to non-Claude models isn't supported by Anthropic. Many providers do it anyway; expect differences in tool use and thinking.
 
+[![Add to Magpie](https://usemagpie.ai/img/add-to-magpie.svg)](https://usemagpie.ai/import#name=Standard+Compute&id=standardcompute&chat=https%3A%2F%2Fapi.stdcmpt.com%2Fv1&anthropic=https%3A%2F%2Fapi.stdcmpt.com&website=https%3A%2F%2Fstandardcompute.com&keys=https%3A%2F%2Fstandardcompute.com%2Fdashboard%2Fapi-keys&icon=https%3A%2F%2Fstandardcompute.com%2Fapple-icon.png)
+
+Using Magpie? One click adds Standard Compute as a provider (you paste your key in Magpie). Guide: https://standardcompute.com/integrations/magpie
+
 Missing a provider? Open a PR adding it to `PRESETS` in `ccp` with a link to the vendor's page that shows the base URL and model IDs.
 
 ## Keys
